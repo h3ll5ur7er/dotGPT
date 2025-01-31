@@ -1,0 +1,4 @@
+textual>=0.52.1
+rich>=13.7.0 
+pydantic>=2.10.2
+typing-extensions>=4.11.0
