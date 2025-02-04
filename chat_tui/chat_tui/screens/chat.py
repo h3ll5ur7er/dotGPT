@@ -92,7 +92,7 @@ class ChatScreen(Screen):
     
     def action_new_chat(self) -> None:
         """An [action](/guide/actions) to create a new chat."""
-        self.chats.chats.append(Chat(name="New Chat", messages=[]))
+        self.chats.chats.append(Chat(settings=ChatSettings(name="New Chat"), messages=[]))
         # Update the chat list widget
         chat_list = self.query_one(ChatList)
         chat_list.update_chats(self.chats)

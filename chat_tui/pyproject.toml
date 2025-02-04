@@ -1,0 +1,12 @@
+[project]
+name = "chat-tui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10.2",
+    "rich>=13.7.0",
+    "textual>=0.52.1",
+    "typing-extensions>=4.11.0",
+]
